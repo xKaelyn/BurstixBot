@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="BurstixBot.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="clientid" Type="System.String" Scope="User">
+      <Value Profile="(Default)">mgvrqz0ecs3b2ka8s37dokr9cxziqq</Value>
+    </Setting>
+    <Setting Name="clientsecret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">bpn7yxwchoaxvw7ilbu9mqytrydo3i</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
