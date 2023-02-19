@@ -18,7 +18,6 @@ using TwitchLib.Client.Events;
 using TwitchLib.Api;
 using NHttp;
 using TwitchLib.Communication.Events;
-using System.Configuration;
 
 namespace BurstixBot
 {
@@ -27,8 +26,8 @@ namespace BurstixBot
 
         private HttpServer WebServer;
         private readonly string RedirectUrl = "http://localhost";
-        private readonly string ClientId = ConfigurationManager.AppSettings["clientid"];
-        private readonly string ClientSecret = ConfigurationManager.AppSettings["clientsecret"];
+        private readonly string ClientId = Properties.Settings.Default.clientid;
+        private readonly string ClientSecret = Properties.Settings.Default.clientsecret;
         private readonly List<string> Scopes = new List<string> { "chat:read", "chat:edit" };
 
         private TwitchClient OwnerOfChannelConnection;
