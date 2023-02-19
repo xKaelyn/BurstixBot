@@ -42,17 +42,12 @@ namespace BurstixBot
 
         Dictionary<string, string> CommandsStaticResponses = new Dictionary<string, string>
         {
-            { "route", "Displays the route that is currently being flown." }
+            { "ping", "Pong!" }
         };
 
         public BurstixBotForm()
         {
             InitializeComponent();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
         }
 
         private void initialiseBotButton_Click(object sender, EventArgs e)
