@@ -37,7 +37,7 @@ namespace BurstixBot.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("bpn7yxwchoaxvw7ilbu9mqytrydo3i")]
+        [global::System.Configuration.DefaultSettingValueAttribute("nmhpipqmrkuzbfffh5k84hqhleyr8n")]
         public string clientsecret {
             get {
                 return ((string)(this["clientsecret"]));
